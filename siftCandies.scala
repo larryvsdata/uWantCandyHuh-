@@ -24,7 +24,7 @@ object siftCandies {
 
     val checkConditions=(chocolate:Double,fruit:Double,caramel:Double,hardness:Double,Bar:Double) =>{
 
-      chocolate==hasChocolate && fruit==fruity && caramel==hasCaramel && hardness==isHard && Bar==isHard
+      chocolate==hasChocolate && fruit==fruity && caramel==hasCaramel && hardness==isHard && Bar==isBar
     }
 
     val printGreeting=(chocolate:Double,fruit:Double,caramel:Double,hardness:Double,Bar:Double) =>{
